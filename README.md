@@ -50,3 +50,28 @@ The project is designed with **simple UI, good UX, and proper functionality**, f
 - Public REST API
 
 ---
+## Setup Instructions
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/vinay-nethala/news_reader_app.git
+cd news_reader_app
+```
+2 install dependencies
+  ``` bash
+npm install
+```
+3 Create a .env file in the root folder
+```bash
+VITE_NEWS_API_KEY=paste_my_api_key
+```
+4 Start the development server
+```bash
+npm run dev
+```
+5 Open your browser at these url
+```bash
+http://localhost:5173 or(open the port which it display)
+```
+
