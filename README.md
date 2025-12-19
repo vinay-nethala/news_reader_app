@@ -50,6 +50,13 @@ The project is designed with **simple UI, good UX, and proper functionality**, f
 - Public REST API
 
 ---
+Prerequisites
+Before running this project, make sure you have installed:
+
+Node.js (version 16 or later recommended)
+Download from https://nodejs.org/
+This will also install npm (Node Package Manager).
+
 ## Setup Instructions
 
 1. Clone the repo:
@@ -62,15 +69,12 @@ cd news_reader_app
   ``` bash
 npm install
 ```
-3 Create a .env file in the root folder
-```bash
-VITE_NEWS_API_KEY=paste_my_api_key
-```
-4 Start the development server
+
+3 Start the development server
 ```bash
 npm run dev
 ```
-5 Open your browser at these url
+4 Open your browser at these url
 ```bash
 http://localhost:5173 or(open the port which it display)
 ```
